@@ -1,13 +1,13 @@
-package Lotus.Lotusspring;
+package Lotusspring.lotus;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LotusSpringApplication {
+public class LotusApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LotusSpringApplication.class, args);
+		SpringApplication.run(LotusApplication.class, args);
 	}
 
 }
